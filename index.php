@@ -16,43 +16,43 @@
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-  <style>
+  	<style>
 
-  </style>
+  	</style>
 </head>
 
 <body>
-	<div class="container">
-		<header>
 
-		</header>
-		<main>
-			<div class="row">
-				<article class="menu">
-					&nbsp;
-				</article>
-				<article>
-					&nbsp;
-				</article>	
-				<article>
-					&nbsp;
-				</article>
-				<article>
-					&nbsp;
-				</article>	
-				<article>
-					&nbsp;
-				</article>
-				<article>
-					&nbsp;
-				</article>					
-			</div>
-		</main>
-		<footer>
-		</footer>
-	</div>
+    <header>header</header>
+    <!-- All the page content goes here  -->
 
+    <main>
 
-  	<script src="js/scripts.js"></script>
+		<div class="row">
+			<article class="menu">
+				&nbsp;
+			</article>
+			<article>
+				&nbsp;
+			</article>	
+			<article>
+				&nbsp;
+			</article>
+			<article>
+				&nbsp;
+			</article>	
+			<article>
+				&nbsp;
+			</article>
+			<article>
+				&nbsp;
+			</article>					
+		</div>    	
+    </main>
+
+    <!-- Our sticky foooter -->
+
+    <footer>...</footer>
+
 </body>
 </html>

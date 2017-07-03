@@ -1,15 +1,32 @@
 /**
 	Styles for wrappers
 */
+html {
+	height: 100%;
+}
 body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+.container {
+
+}
+main {
+	flex: 1 0 auto;
 }
 .row {
 	width: 1440px;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-columns: 16.666% 16.666% 16.666% 16.666% 16.666% 16.666%; //20% 20% 20% 20% 20%;
 	grid-gap: 0;
+}
+footer {
+   /* The footer will take up as much vertical space as it needs and not a pixel more. */
+   flex: 0 0 auto;
 }
