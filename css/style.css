@@ -1,0 +1,71 @@
+/* 
+	Theme Name: Soaring Penguin Press
+	Theme URI: www.soaringpenguinpress.com
+	Description: A theme for Soaring Penguin Press
+	Author: John Anderson
+	Author URI: https://www.soaringpenguin.com/
+	Template: soaringpenguinpress
+	Version: 0.0.1
+
+	Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready
+
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+	Text Domain: soaringpenguinpress
+*/
+/*
+// Fonts
+//
+// Globals
+@import "scss-partials/globals";
+
+// Colours
+@import "scss-partials/colours";
+
+// Fonts
+@import "fonts/fonts";
+
+// Tools
+@import "scss-partials/tools";
+
+// Foundation Grid
+//@import "scss-partials/foundation";
+@import "partials/grid"; */
+/**
+	Styles for wrappers
+*/
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.row {
+  width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-gap: 0; }
+
+                             /*
+
+// Elements styles
+@import "scss-partials/elements";
+
+// Navigation
+@import "scss-partials/navigation"; */
+/**
+	Component style code for the header
+*/
+header {
+  width: 100%;
+  background-color: blue;
+  height: 50px; }
+
+/** Style for Articles tag **/
+article {
+  background-color: pink; }
+  article.menu {
+    background-color: yellow; }
+
+/*# sourceMappingURL=style.css.map */

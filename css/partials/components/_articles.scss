@@ -1,0 +1,8 @@
+/** Style for Articles tag **/
+
+article {
+	background-color: pink;
+	&.menu {
+		background-color: yellow;
+	}
+}
