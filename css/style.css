@@ -14,12 +14,8 @@
 
 	Text Domain: soaringpenguinpress
 */
+/** Global styles **/
 /*
-// Fonts
-//
-// Globals
-@import "scss-partials/globals";
-
 // Colours
 @import "scss-partials/colours";
 
@@ -50,10 +46,11 @@ main {
   flex: 1 0 auto; }
 
 .row {
-  width: 1440px;
+  width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 16.666% 16.666% 16.666% 16.666% 16.666% 16.666%;
+  grid-template-columns: 240px 240px 240px 240px 240px;
+  grid-template-rows: 240px 240px 240px 240px 240px;
   grid-gap: 0; }
 
 footer {
@@ -73,14 +70,15 @@ footer {
 header {
   width: 100%;
   background-color: blue;
-  height: 50px; }
+  height: 50px;
+  display: block; }
 
 /** Style for Articles tag **/
 article {
   background-color: pink; }
   article.menu {
     background-color: yellow;
-    grid-column: 1 / span 2;
+    grid-column: 1;
     grid-row: 1 / span 2; }
 
 /** Style for footer */

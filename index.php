@@ -23,14 +23,20 @@
 
 <body>
 
-    <header>header</header>
+    <header>...</header>
     <!-- All the page content goes here  -->
 
     <main>
 
 		<div class="row">
 			<article class="menu">
-				&nbsp;
+				<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Shop</a></li>
+				<li><a href="">News</a></li>
+				<li><a href="">Competition</a></li>
+				<li><a href="">Contact</a></li>
+				</ul>
 			</article>
 			<article>
 				&nbsp;
@@ -46,7 +52,10 @@
 			</article>
 			<article>
 				&nbsp;
-			</article>					
+			</article>	
+			<article>
+				&nbsp;
+			</article>	
 		</div>    	
     </main>
 
